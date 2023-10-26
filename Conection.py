@@ -31,6 +31,8 @@ class Conection:
                         s.close()
                         Conection()
                         break
+                    if self.mensaje == "":
+                        self.mensaje = "vacio"
                     s.sendall(self.mensaje.encode())
 
                 
