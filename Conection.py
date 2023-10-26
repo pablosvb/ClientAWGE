@@ -11,7 +11,7 @@ class Conection:
         View.clear()
         View.cabecera()
         self.mensaje = ""
-        self.host = input("[38;5;20m Introduce el Host:[92;5;154m")
+        self.host = input("[38;5;20m Introduce el Host:[92;5;20m")
         self.port = int (input("[38;5;20m Introduce el Puerto:[92;5;154m"))
         self.conexion()
     
