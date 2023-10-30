@@ -7,7 +7,7 @@ class View:
     def cabecera():
         print(__header_W__)
         print(__header_PMC__)
-        print(__header_line__)
+    
         print()
 
     def clear():
